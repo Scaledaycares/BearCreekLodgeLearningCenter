@@ -1,6 +1,33 @@
      /* Your CSS code here */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+
+html,
+body,
+#chat-widget,
+#chat-widget *,
+#chatbot-toggle,
+#chatbot-toggle *,
+#chat-form,
+#chat-form *,
+#chat-input,
+#chat-input::placeholder,
+.chatbot-header,
+.chatbot-header *,
+.chat-user,
+.chat-assistant,
+.loading-dots,
+.loading-dots *,
+button,
+a,
+#contactus,
+.tour-booking,
+#back-to-chatbot,
+#loc,
+.location-button {
+  font-family: "Cormorant Garamond", Garamond, Georgia, serif !important;
+}
      body {
-      font-family: Cormorant Garamond;
+      font-family: "Cormorant Garamond", Garamond, Georgia, serif;
     }
  #chatbot-toggle {
       position: fixed;
