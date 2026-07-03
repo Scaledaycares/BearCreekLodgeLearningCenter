@@ -136,12 +136,13 @@ color: #000000;
       background-color: #546d56;
     }
 .chatbot-header {
-color: white; /* Set the text color */
-background-color:#546d56 ;
-padding: 16px; /* Add some padding for a nicer look */
-font-weight: bold; /* Make the text bold */
-border: 2px solid #FFFFFF;
-border-radius: 0; 
+  color: white;
+  background-color: #546d56;
+  padding: 16px;
+  font-weight: bold;
+  border: none !important;
+  border-radius: 0;
+  margin: 0;
 }
 
 .chatbot-header-line {
@@ -324,13 +325,14 @@ a:hover {
 }
 .tour-booking {
   background-color: #aee08c;
-  min-height: 68px;
+  height: 48px;
+  min-height: 48px;
   width: 100%;
   padding: 0 20px;
   text-align: center;
   color: #546d56;
-  font-size: 26px;
-  line-height: 32px;
+  font-size: 24px;
+  line-height: 28px;
   font-weight: 700;
   border-radius: 80px 80px 0 0;
   display: flex;
@@ -338,6 +340,8 @@ a:hover {
   justify-content: center;
   box-sizing: border-box;
   flex-shrink: 0;
+  margin: 0;
+  border: none;
 }
 
 .tour-booking a {
