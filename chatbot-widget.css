@@ -141,7 +141,7 @@ background-color:#546d56 ;
 padding: 16px; /* Add some padding for a nicer look */
 font-weight: bold; /* Make the text bold */
 border: 2px solid #FFFFFF;
-border-radius: 16px 16px 0 0; 
+border-radius: 0; 
 }
 
 .chatbot-header-line {
